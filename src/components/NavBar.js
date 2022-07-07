@@ -1,6 +1,6 @@
-
+import CartWidget from './CartWidget'
 import logo from '../logo.png';
-const NavBar = () => {
+const NavBar = (props) => {
     return (  
         <navbar className='navbar navbar-expand-lg navbar-light bg-light justify-content-between'>
             <div className='navbar-brand d-flex align-middle'>
@@ -12,6 +12,7 @@ const NavBar = () => {
                 <li><a className='nav-link' href='#'>Products</a></li>
                 <li><a className='nav-link' href='#'>About us</a></li>
             </ul>
+            <CartWidget />
         </navbar>
     );
 }
