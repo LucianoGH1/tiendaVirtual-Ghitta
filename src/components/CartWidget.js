@@ -1,18 +1,15 @@
-import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBasketShopping } from '@fortawesome/free-solid-svg-icons';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import 'bootstrap/dist/css/bootstrap.css';
 
-const BagLink = styled.a`
-    text-decoration: none;
-    color: inherit;
-    margin: 10px;
-`
+
 
 const CartWidget = () => {
     return (
-        <BagLink href="">
-            <FontAwesomeIcon icon={faBasketShopping} size="2x" />
-        </BagLink>
+        
+        <a href="#" className=''>
+            <FontAwesomeIcon size="2x" icon={faCartShopping} />
+        </a>
     )
 }
 
