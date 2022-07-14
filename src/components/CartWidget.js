@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const CartWidget = () => {
     return (
         
-        <a href="#" className=''>
+        <a href="#">
             <FontAwesomeIcon size="2x" icon={faCartShopping} />
         </a>
     )
