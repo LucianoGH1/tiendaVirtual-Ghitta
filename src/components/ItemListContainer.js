@@ -3,6 +3,7 @@ import ItemList from './ItemList';
 import data from './data.json'
 import { useState, useEffect } from "react";
 
+
 const ItemListContainer = () => {
     const [items, setItems] = useState([]);
     const promise = new Promise(resolve => {
